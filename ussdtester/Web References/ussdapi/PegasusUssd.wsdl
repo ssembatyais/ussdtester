@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://PegasusUssd/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://PegasusUssd/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://PegasusUssd/">
+      <s:element name="ProcessUssdRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:Request" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Request">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="StatusDesc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StatusCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ShortCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Network" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CalledNmber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Action" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RequestString" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClientId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TrandactionDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TransactionId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ProcessUssdRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProcessUssdRequestResult" type="tns:Response" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Response">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="AccountExpected" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReadMethod" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Print" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PrintText" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Action" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ResponseString" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClientId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TransactionId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PrintCount" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ProcessUssdRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:ProcessUssdRequest" />
+  </wsdl:message>
+  <wsdl:message name="ProcessUssdRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:ProcessUssdRequestResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PegasusUssdSoap">
+    <wsdl:operation name="ProcessUssdRequest">
+      <wsdl:input message="tns:ProcessUssdRequestSoapIn" />
+      <wsdl:output message="tns:ProcessUssdRequestSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PegasusUssdSoap" type="tns:PegasusUssdSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ProcessUssdRequest">
+      <soap:operation soapAction="http://PegasusUssd/ProcessUssdRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PegasusUssdSoap12" type="tns:PegasusUssdSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ProcessUssdRequest">
+      <soap12:operation soapAction="http://PegasusUssd/ProcessUssdRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PegasusUssd">
+    <wsdl:port name="PegasusUssdSoap" binding="tns:PegasusUssdSoap">
+      <soap:address location="http://localhost:33749/PegasusUssd.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PegasusUssdSoap12" binding="tns:PegasusUssdSoap12">
+      <soap12:address location="http://localhost:33749/PegasusUssd.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

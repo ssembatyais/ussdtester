@@ -1,0 +1,52 @@
+c:\users\dngobi\documents\visual studio 2010\Projects\ussdtester\ussdtester\bin\Debug\ussdtester.exe.config
+c:\users\dngobi\documents\visual studio 2010\Projects\ussdtester\ussdtester\bin\Debug\ussdtester.exe
+c:\users\dngobi\documents\visual studio 2010\Projects\ussdtester\ussdtester\bin\Debug\ussdtester.pdb
+c:\users\dngobi\documents\visual studio 2010\Projects\ussdtester\ussdtester\obj\x86\Debug\ussdtester.exe
+c:\users\dngobi\documents\visual studio 2010\Projects\ussdtester\ussdtester\obj\x86\Debug\ussdtester.pdb
+E:\Yenusu\ussdtester\ussdtester\bin\Debug\ussdtester.exe.config
+E:\Yenusu\ussdtester\ussdtester\bin\Debug\ussdtester.exe
+E:\Yenusu\ussdtester\ussdtester\bin\Debug\ussdtester.pdb
+E:\Yenusu\ussdtester\ussdtester\obj\x86\Debug\ussdtester.exe
+E:\Yenusu\ussdtester\ussdtester\obj\x86\Debug\ussdtester.pdb
+C:\Users\kyenusu\Desktop\ussdtester\ussdtester\bin\Debug\ussdtester.exe.config
+C:\Users\kyenusu\Desktop\ussdtester\ussdtester\obj\x86\Debug\ussdtester.exe
+C:\Users\kyenusu\Desktop\ussdtester\ussdtester\obj\x86\Debug\ussdtester.pdb
+C:\Users\kyenusu\Desktop\ussdtester\ussdtester\bin\Debug\ussdtester.exe
+C:\Users\kyenusu\Desktop\ussdtester\ussdtester\bin\Debug\ussdtester.pdb
+C:\Users\kyenusu\Desktop\ussdtester\ussdtester\obj\x86\Debug\ussdtester.csprojResolveAssemblyReference.cache
+E:\ussdtester\ussdtester\bin\Debug\ussdtester.exe.config
+E:\ussdtester\ussdtester\obj\x86\Debug\ussdtester.exe
+E:\ussdtester\ussdtester\obj\x86\Debug\ussdtester.pdb
+E:\ussdtester\ussdtester\bin\Debug\ussdtester.exe
+E:\ussdtester\ussdtester\bin\Debug\ussdtester.pdb
+E:\ussdtester\ussdtester\obj\x86\Debug\ussdtester.csprojResolveAssemblyReference.cache
+E:\ussdtester\ussdtester\ussdtester\bin\Debug\ussdtester.exe.config
+E:\ussdtester\ussdtester\ussdtester\obj\x86\Debug\ussdtester.exe
+E:\ussdtester\ussdtester\ussdtester\obj\x86\Debug\ussdtester.pdb
+E:\ussdtester\ussdtester\ussdtester\bin\Debug\ussdtester.exe
+E:\ussdtester\ussdtester\ussdtester\bin\Debug\ussdtester.pdb
+E:\ussdtester\ussdtester\ussdtester\obj\x86\Debug\ussdtester.csprojResolveAssemblyReference.cache
+D:\USSD MIGRATION\USSD MIGRATION\PePay\USSD\ussdtester\ussdtester\bin\Debug\ussdtester.exe.config
+D:\USSD MIGRATION\USSD MIGRATION\PePay\USSD\ussdtester\ussdtester\obj\x86\Debug\ussdtester.exe
+D:\USSD MIGRATION\USSD MIGRATION\PePay\USSD\ussdtester\ussdtester\obj\x86\Debug\ussdtester.pdb
+D:\USSD MIGRATION\USSD MIGRATION\PePay\USSD\ussdtester\ussdtester\bin\Debug\ussdtester.exe
+D:\USSD MIGRATION\USSD MIGRATION\PePay\USSD\ussdtester\ussdtester\bin\Debug\ussdtester.pdb
+D:\USSD MIGRATION\USSD MIGRATION\PePay\USSD\ussdtester\ussdtester\obj\x86\Debug\ussdtester.csprojResolveAssemblyReference.cache
+D:\ussdtester\ussdtester\bin\Debug\ussdtester.exe
+D:\ussdtester\ussdtester\bin\Debug\ussdtester.pdb
+D:\ussdtester\ussdtester\obj\x86\Debug\ussdtester.exe
+D:\ussdtester\ussdtester\obj\x86\Debug\ussdtester.pdb
+E:\Pepay\Generic\ussdtester\ussdtester\bin\Debug\ussdtester.exe.config
+E:\Pepay\Generic\ussdtester\ussdtester\bin\Debug\ussdtester.exe
+E:\Pepay\Generic\ussdtester\ussdtester\bin\Debug\ussdtester.pdb
+E:\Pepay\Generic\ussdtester\ussdtester\obj\x86\Debug\ussdtester.csproj.AssemblyReference.cache
+E:\Pepay\Generic\ussdtester\ussdtester\obj\x86\Debug\ussdtester.csproj.CoreCompileInputs.cache
+E:\Pepay\Generic\ussdtester\ussdtester\obj\x86\Debug\ussdtester.exe
+E:\Pepay\Generic\ussdtester\ussdtester\obj\x86\Debug\ussdtester.pdb
+E:\Isaac\ussdtester\ussdtester\bin\Debug\ussdtester.exe.config
+E:\Isaac\ussdtester\ussdtester\bin\Debug\ussdtester.exe
+E:\Isaac\ussdtester\ussdtester\bin\Debug\ussdtester.pdb
+E:\Isaac\ussdtester\ussdtester\obj\x86\Debug\ussdtester.csproj.AssemblyReference.cache
+E:\Isaac\ussdtester\ussdtester\obj\x86\Debug\ussdtester.csproj.CoreCompileInputs.cache
+E:\Isaac\ussdtester\ussdtester\obj\x86\Debug\ussdtester.exe
+E:\Isaac\ussdtester\ussdtester\obj\x86\Debug\ussdtester.pdb
